@@ -2,7 +2,7 @@
 
 Hi Friends! Welcome to the Timer application.
 
-This project was developed using React with TypeScript and styled-components. The timer registers are saved in the browser's localStorage, making it convenient for you to track your time. Exciting new features are coming soon!
+This project was developed using React with TypeScript and styled-components. The timer registers are saved in the browser's localStorage, making it convenient for you to track your time. New features are coming soon!
 
 ## Local Setup
 
