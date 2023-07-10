@@ -16,5 +16,3 @@ To run the project locally, follow these steps:
 6. Open your web browser and visit the provided local server address.
 
 Feel free to reach out if you have any questions or need further assistance.
-
-Enjoy your time with the Timer!
