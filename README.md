@@ -1,4 +1,4 @@
-# Timer Application
+# Timer Application using React
 
 Hi Friends! Welcome to the Timer application.
 
