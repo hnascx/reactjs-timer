@@ -5,29 +5,33 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
 
+  h1 {
+    flex: 1;
+    margin-left: 1rem;
+    color: white;
+  }
+
   nav {
     display: flex;
     gap: 0.5rem;
 
     a {
-      width: 3rem;
-      height: 3rem;
+      width: 2.5rem;
+      height: 2.5rem;
 
       display: flex;
       justify-content: center;
       align-items: center;
 
-      color: ${(props) => props.theme['gray-100']};
-
-      border-top: 3px solid transparent;
-      border-bottom: 3px solid transparent;
+      color: ${(props) => props.theme['blue-200']};
 
       &:hover {
-        border-bottom: 3px solid ${(props) => props.theme['green-500']};
+        color: ${(props) => props.theme['blue-100']};
+        transition: 0.1s;
       }
 
       &.active {
-        color: ${(props) => props.theme['green-500']};
+        color: ${(props) => props.theme['gray-100']};
       }
     }
   }

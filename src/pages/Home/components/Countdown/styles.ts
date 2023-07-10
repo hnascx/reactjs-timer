@@ -10,16 +10,16 @@ export const CountdownContainer = styled.div`
   gap: 1rem;
 
   span {
-    background: ${(props) => props.theme['gray-700']};
     padding: 2rem 1rem;
-    border-radius: 8px;
+    border: 1px solid #fff;
+    border-radius: 16px;
   }
 `
 export const Separator = styled.div`
   font-size: 10rem;
   font-weight: bold;
   padding: 2rem 0;
-  color: ${(props) => props.theme['green-500']};
+  color: ${(props) => props.theme.white};
 
   width: 4rem;
   overflow: hidden;

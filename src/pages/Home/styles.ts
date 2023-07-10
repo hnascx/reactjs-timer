@@ -39,17 +39,27 @@ export const BaseCountdownButton = styled.button`
 `
 
 export const StartCountdownButton = styled(BaseCountdownButton)`
-  background: ${(props) => props.theme['green-500']};
+  background: #8e2de2;
+  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
 
   &:not(:disabled):hover {
-    background: ${(props) => props.theme['green-700']};
+    background: #8e2de2;
+    background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    opacity: 0.9;
   }
 `
 
 export const StopCountdownButton = styled(BaseCountdownButton)`
-  background: ${(props) => props.theme['red-500']};
+  background: #c33764;
+  background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+  background: linear-gradient(to right, #1d2671, #c33764);
 
   &:not(:disabled):hover {
-    background: ${(props) => props.theme['red-700']};
+    background: #c33764;
+    background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+    background: linear-gradient(to right, #1d2671, #c33764);
+    opacity: 0.9;
   }
 `

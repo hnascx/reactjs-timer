@@ -7,19 +7,17 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  :focus {
-    outline: 0;
-    box-shadow: 0 0 0 2px ${(props) => props.theme['green-500']};
-  }
-
   body {
-    background: ${(props) => props.theme['gray-900']};
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
     color: ${(props) => props.theme['gray-300']};
     -webkit-font-smoothing: antialiased;
   }
 
   border-style, input, textarea, button, div {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1rem;
   }

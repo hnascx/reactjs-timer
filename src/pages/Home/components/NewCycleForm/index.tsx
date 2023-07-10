@@ -13,7 +13,7 @@ export function NewCycleForm() {
       <TaskInput
         id="task"
         list="task-suggestions"
-        placeholder="Name of your task"
+        placeholder="Study, work, personal project..."
         disabled={!!activeCycle}
         {...register('task')}
       />
@@ -29,7 +29,6 @@ export function NewCycleForm() {
       <MinutesAmountInput
         type="number"
         id="minutesAmount"
-        placeholder="00"
         step={5}
         min={5}
         max={60}
